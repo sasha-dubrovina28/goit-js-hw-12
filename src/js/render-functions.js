@@ -21,10 +21,10 @@ export function hideLoader() {
   loader.classList.add("hidden");
 }
 export function showLoadMoreButton() {
-    loader.classList.remove("hidden")
+  loadMoreBtn.classList.remove("hidden")
 }
 export function hideLoadMoreButton() {
-    loader.classList.add("hidden")
+  loadMoreBtn.classList.add("hidden")
 }
 export function createGallery(images) {
   const markup = images
